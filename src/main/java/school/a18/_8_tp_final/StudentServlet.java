@@ -19,6 +19,7 @@ public class StudentServlet extends HttpServlet {
         }
     }
 
+    //Commentaire ajouter pour tester le pipeline
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
         for (Student student : listOfStudent.getStudents()) {
